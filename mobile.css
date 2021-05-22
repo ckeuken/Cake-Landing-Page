@@ -1,0 +1,107 @@
+/*Iphone 6/7/8 IOS 11*/
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .main__header{
+    flex-direction: column;
+  }
+  
+  #social__proof{
+    font-size: 2rem;
+    flex-direction: column;
+  }
+
+  #hard__lopers{
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .logo__image {
+    height: auto;
+    max-width: 100%;
+  }
+
+  #image__1,
+  #image__2,
+  #image__3{
+  height: auto;
+  max-width: 100%;
+  }
+
+  .prijs{
+    margin-right: 10px; 
+    margin-bottom: -20px;
+  }
+  
+  #grt{
+    margin-bottom: 20px;
+  }
+  
+  #grt-prijs{
+    margin-bottom: -15px;
+  }
+  
+
+  .rating{
+    padding: 0;
+    padding-bottom: 1.5rem;
+  }
+  
+  .rating h3{
+    font-size: 0.85rem;
+  }
+}
+
+
+
+/*Iphone 6/7/8 plus IOS 11 landscape*/
+@media screen and 
+(min-device-width: 414px) and 
+(max-device-width: 736px) and 
+(orientation: landscape) {
+  #social__proof{
+    font-size: 2rem;
+    flex-direction: column;
+  }
+
+  #number {
+    font-size: 5rem;
+  }
+
+  
+}
+
+/*Iphone X/XS IOS 12 landscape*/
+@media screen and (min-device-width: 375px) and 
+(max-device-width: 812px) and
+(orientation: landscape) {
+  #social__proof{
+    font-size: 2rem;
+    flex-direction: column;
+  }
+
+  #number {
+    font-size: 5rem;
+  }
+}
+
+/*Ipad*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #social__proof{
+    font-size: 2rem;
+    flex-direction: column;
+  }
+
+  #number {
+    font-size: 5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
